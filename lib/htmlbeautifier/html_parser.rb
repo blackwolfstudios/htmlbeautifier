@@ -5,13 +5,13 @@ module HtmlBeautifier
     ELEMENT_CONTENT = %r{ (?:<%.*?%>|[^>])* }mx
     HTML_VOID_ELEMENTS = %r{(?:
       area | base | br | col | command | embed | hr | img | input | keygen |
-      link | meta | param | source | track | wbr
+      link | meta | param | source | track | wbr | path
     )}mix
     HTML_BLOCK_ELEMENTS = %r{(?:
       address | article | aside | audio | blockquote | canvas | dd | dir | div |
       dl | dt | fieldset | figcaption | figure | footer | form | h1 | h2 | h3 |
-      h4 | h5 | h6 | header | hr | li | menu | noframes | noscript | ol | p |
-      pre | section | table | tbody | td | tfoot | th | thead | tr | ul | video
+      h4 | h5 | h6 | header| main | hr | li | menu | noframes | noscript | ol | p |
+      pre | section | table | tbody | td | tfoot | th | thead | tr | ul | video | svg
     )}mix
 
     MAPPINGS = [
