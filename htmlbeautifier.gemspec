@@ -21,6 +21,5 @@ spec = Gem::Specification.new do |s|
 
   s.add_development_dependency "rake", "~> 0"
   s.add_development_dependency "rspec", "~> 3"
-  s.add_development_dependency "rubocop", "~> 0.30.0"
 end
 
